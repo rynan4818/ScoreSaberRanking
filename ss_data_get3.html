@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <title>ScoreSaber Number of Rankers by Country(国別ランカー数)</title>
+    <style type="text/css">
+      body {
+          padding-top: 50px;
+      }
+      header {
+          width: 100%;
+          height: 50px;
+          background: #CCC;
+          padding: 20px 10px;
+          box-sizing: border-box;
+          position: fixed;
+          top: 0;
+          left: 0;
+          display: flex;
+          align-items: center;
+      }
+      #heightInput {
+        width: 4em;
+      }
+      #container {
+        width: 100%;
+        height: 800px;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/data.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script type="text/javascript" src="./js/population.js"></script>
+    <script type="text/javascript" src="./js/countrychart.js"></script>
+    <header>
+      <div class="controls">
+        <button id="view_mode">Comparison per million population(人口百万人当たり)</button>
+        　　Graph Height(グラフ高さ)
+        <button id="autoheight">Adjust(再調整)</button>
+        <input type="number" id="heightInput" value="800"></input> px
+        <button id="heightApply">Change(変更)</button>
+      </div>
+    </header>
+    <div id="container"></div>
+  </body>
+</html>

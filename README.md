@@ -1,0 +1,16 @@
+# ScoreSaberの各種ランキング
+※1日1回更新されます
+### [Total Play Count Global Ranking](total_play_count_global_rank.md)
+### [Total Play Count Japan Ranking](total_play_count_jp_rank.md)
+### [Ranked Play Count Global Ranking](ranked_play_count_global_rank.md)
+### [Ranked Play Count Japan Ranking](ranked_play_count_jp_rank.md)
+### [Weekly Change Global Ranking](weekly_change_global_rank.md)
+### [Weekly Change Japan Ranking](weekly_change_jp_rank.md)
+### [Total Score Global Ranking](total_score_global_rank.md)
+### [Total Score Japan Ranking](total_score_jp_rank.md)
+### [Total Ranked Score Global Ranking](total_ranked_score_global_rank.md)
+### [Total Ranked Score Japan Ranking](total_ranked_score_jp_rank.md)
+### [Average Ranked Accuracy Global Ranking](average_ranked_accuracy_global_rank.md)
+### [Average Ranked Accuracy Japan Ranking](average_ranked_accuracy_jp_rank.md)
+### [Replays Watched Global Ranking](replays_watched_global_rank.md)
+### [Replays Watched Japan Ranking](replays_watched_jp_rank.md)
